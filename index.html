@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MyFreeIT | Портфолио & Онлайн-школа</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="assets/icons/logo.jpg" alt="Logo" class="logo-img">
+        MyFree<span class="accent">IT</span>
+    </div>
+    <nav>
+        <a href="#about">Обо мне</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#courses">Курсы</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <button class="burger" aria-label="Меню">☰</button>
+    <div class="mobile-menu">
+        <a href="#about">Обо мне</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#courses">Курсы</a>
+        <a href="#contact">Контакты</a>
+    </div>
+</header>
+
+<div class="dev-banner">
+    🚧 Сайт находится в разработке. Некоторые разделы могут быть неполными.
+</div>
+
+<section class="hero fade-in">
+    <div>
+        <h2>Программирование. Архитектура. Обучение.</h2>
+        <p>Я создаю софт и обучаю архитектурно чистому коду.</p>
+        <a href="#courses" class="btn">Записаться на курс</a>
+    </div>
+</section>
+
+<section id="about" class="fade-in">
+    <div class="about">
+        <div>
+            <h3>Обо мне</h3>
+            <p>Full Stack Software Engineer, архитектор и разработчик, мой основной стек это Java, Web и мобильная
+                разработка. Также в разной степени, владею и другими языками программирования.
+            </p>
+            <p>Занимаюсь фрилансом и опенсорсной разработкой. Веду курсы по программированию как для начинающих, так и
+                по промышленной разработке и архитектурному
+                мышлению.</p>
+            <p>Всегда готов к плодотворному и захватывающему сотрудничеству, как в опенсорсе, так и в команде на
+                коммерческой основе!</p>
+            <a href="#contact" class="btn contact-btn">Связаться со мной</a>
+        </div>
+        <div>
+            <img src="assets/icons/logo.jpg" alt="My profile" class="profile-img">
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="portfolio fade-in">
+    <h3 class="section-title">Портфолио и стек технологий</h3>
+
+    <table class="tech-table">
+        <thead>
+        <tr>
+            <th>Язык</th>
+            <th>Фреймворки / Библиотеки</th>
+            <th>Инструменты</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Java</td>
+            <td>Spring Boot, JavaFX</td>
+            <td>Maven, Gradle, JUnit</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Django, Flask, FastAPI</td>
+            <td>Poetry, Pytest</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>React, Node.js</td>
+            <td>HTML5, CSS3, Webpack, ESLint</td>
+        </tr>
+        <tr>
+            <td>DevOps</td>
+            <td>Docker, Kubernetes</td>
+            <td>GitHub Actions, CI/CD</td>
+        </tr>
+        </tbody>
+    </table>
+
+</section>
+
+<section id="courses" class="courses fade-in">
+    <h3 class="section-title">Мои курсы</h3>
+    <div class="course-list">
+        <div class="card">
+            <h4>Java с нуля</h4>
+            <p>Курс по языку программирования Java, решение задач и написание проектов.</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="card">
+            <h4>Продвинутая Java</h4>
+            <p>Курс по продвинутым фичам языка программирования Java. Ассинхронное и реактивное программирование,
+                многопоточное и параллельное программирование. Функциональное програмированние, потоки.
+            </p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="card">
+            <h4>Java UI</h4>
+            <p>Курс по разработке отзывчивых современных кроссплатфорсенных десктопных приложений. Swing, JavaFX.
+            </p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="card">
+            <h4>Java Web</h4>
+            <p>Работа с БД, фреймворки SpringBoot, Hibernate.</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="card">
+            <h4>Python с нуля</h4>
+            <p>Курс по языку программирования Python, решение задач и написание проектов.</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="card">
+            <h4>Сетевой Python</h4>
+            <p>Фреймворки FastAPI, Flask, Django. Работа с БД.</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="card">
+            <h4>Архитектура и чистый код</h4>
+            <p>Проектирование масштабируемых и поддерживаемых приложений.</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="card">
+            <h4>DevOps для разработчиков</h4>
+            <p>Инфраструктура как код, контейнеризация и мониторинг.</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+    </div>
+</section>
+
+
+<footer id="contact" class="fade-in">
+    <p>&copy; 2025 Denis Odesskiy (MyFreeIT Inc.) | Email: your@email.com</p>
+</footer>
+
+<div class="modal-overlay" id="modal">
+    <div class="modal-content">
+        <span class="close-modal" id="closeModal">&times;</span>
+        <h3>Связаться со мной</h3>
+        <form>
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Сообщение" rows="4" required></textarea>
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </div>
+</div>
+
+<div class="dev-badge">🛠️ Dev Mode</div>
+
+<script src="assets/scripts/main.js"></script>
+</body>
+</html>
