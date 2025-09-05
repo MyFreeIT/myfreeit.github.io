@@ -1,0 +1,19 @@
+# IDE settings
+.idea/
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Hidden system files
+.env
+*.swp
