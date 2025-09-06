@@ -185,6 +185,7 @@ section {
 @media (max-width: 600px) {
     .about h3 {
         text-align: center;
+        text-indent: 0;
     }
 
     .about p {
